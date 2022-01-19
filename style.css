@@ -1,0 +1,42 @@
+body {
+    background-color: aqua;
+    font: normal 15pt Arial, sans-serif;
+}
+
+
+header h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+section > label {
+    text-align: left;
+}
+
+
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+
+
+@media (max-width: 480px) {
+    section {
+        width: 250px;
+        padding: 10px
+    }
+}
+
